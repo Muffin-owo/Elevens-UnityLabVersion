@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 242302589470806745}
   - component: {fileID: 5197069174876554446}
   - component: {fileID: 8986986510069232521}
+  - component: {fileID: 2514800910920492354}
   m_Layer: 5
   m_Name: CardSlot
   m_TagString: Untagged
@@ -258,3 +259,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2514800910920492354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296378099443842061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3129dfbb74f1f164ab674d410158cc3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  button: {fileID: 8986986510069232521}
+  cardText: {fileID: 7497422570576002243}
+  background: {fileID: 5197069174876554446}
